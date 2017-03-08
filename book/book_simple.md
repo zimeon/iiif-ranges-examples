@@ -15,7 +15,7 @@ Over a sequence of canvases (one for each side of each page) that includes cover
 Where the desired behaviours are:
 
   * Selecting "A Short Book" in navigation will set viewer to front cover image.
-  * Selecting "Capter 1", "Chapter 2", "Chapter 3" or "Picture of House" will set viewer to page containing that start of that chapter or the picture.
+  * Selecting "Chapter 1", "Chapter 2", "Chapter 3" or "Picture of House" will set viewer to page containing that start of that chapter or the picture.
 
 ## Extents derived from hierarchy of parts (with Canvas in Range)
 
@@ -33,6 +33,16 @@ Where the desired behaviours are:
     * Should `no-nav` be implied for a Range with one Canvas as a member?
 
 [Example Manifest](book_simple_ext2.json)
+
+## Extents derived from embedded hierarchy of parts (extras Ranges to wrap whole Canvas)
+
+  * `members` is used to indicate the list of parts within a struture.
+  * Canvases are always treated as no-nav, Ranges as nav.
+  * We get rid of the flat list and deeply nest the structure to avoid repetition
+  * `viewingHint` of `no-nav` could be used to indicate Ranges that should not appear in the navigation hierarchy
+  * Addition `Range` objects used to avoid context-specific application of `label` and `viewingHint` to an existing object. We relax the [current requirement for every `member` object to have a `label`](http://iiif.io/api/presentation/2.1/#members)
+
+[Example Manifest](book_simple_ext3.json)
 
 
 ## Extents specified separately from hierarchy
