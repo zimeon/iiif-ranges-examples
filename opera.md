@@ -93,7 +93,7 @@ For the sake of simplicity, the entire soundtrack for this opera is one canvas w
 ```json
 {
     "type": "Manifest",
-    "label": "A Very Short  Opera -- extents derived from hierarchy of parts",
+    "label": "A Very Short  Opera -- extents and members",
     "sequences": [ "/*...define http://example.org/iiif/canvas/1 in here...*/" ],
     "structures": [
         {
@@ -105,7 +105,7 @@ For the sake of simplicity, the entire soundtrack for this opera is one canvas w
                 {
                     "id": "http://example.org/iiif/canvas/1", 
                     "type": "Canvas",
-                },
+                }
              ],
             "members": [
                 {
