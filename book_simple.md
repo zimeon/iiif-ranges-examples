@@ -129,7 +129,7 @@ Where the desired behaviours are:
 }
 ```
 
-## Extents derived from hierarchy of parts (with Canvas in Range)
+## Extents derived from hierarchy of parts (extras Ranges to wrap whole Canvas)
 
   * `members` is used to indicate the list of parts within a struture.
   * `viewingHint` of `no-nav` is used to indicate portions that should not appear in the navigation hierarchy (re-use of `none` is tempting be has potential conflict with use to control rendering of content)
