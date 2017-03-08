@@ -107,18 +107,18 @@ Where the desired behaviours are:
                     "viewingHint": "no-nav"
                 },
                 {
-                    "id": "http://example.org/iiif/canvas/5#xywh=0,0,600,200, 
+                    "id": "http://example.org/iiif/canvas/5#xywh=0,0,600,200", 
                     "type": "Canvas",
                     "label": "Chapter 2, p2 above picture",
                     "viewingHint": "no-nav"
                 }
                 {
-                    "id": "http://example.org/iiif/canvas/5#xywh=0,201,600,600, 
+                    "id": "http://example.org/iiif/canvas/5#xywh=0,201,600,600", 
                     "type": "Canvas",
                     "label": "Picture of House",
                 }
                 {
-                    "id": "http://example.org/iiif/canvas/5#xywh=0,601,600,800, 
+                    "id": "http://example.org/iiif/canvas/5#xywh=0,601,600,800", 
                     "type": "Canvas",
                     "label": "Chapter 2, p2 below picture",
                     "viewingHint": "no-nav"
