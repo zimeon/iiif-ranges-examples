@@ -1,0 +1,112 @@
+{
+    "type": "Manifest",
+    "label": "A Short Book -- extents derived from hierarchy of parts, extra ranges",
+    "sequences": [ "/*...define http://example.org/iiif/canvas/1 in here...*/" ],
+    "structures": [
+        {
+            "id": "http://example.org/iiif/range/0",
+            "type": "Range",
+            "viewingHint": "top",
+            "label": "A Short Book",
+            "members": [
+                {
+                    "id": "http://example.org/iiif/range/1", 
+                    "type": "Range",
+                    "label": "Front cover",
+                    "viewingHint": "no-nav"
+                },
+                {
+                    "id": "http://example.org/iiif/range/2", 
+                    "type": "Range",
+                    "label": "Chapter 1"
+                },
+                {
+                    "id": "http://example.org/iiif/range/3", 
+                    "type": "Range",
+                    "label": "Chapter 2"
+                },
+                {
+                    "id": "http://example.org/iiif/range/4", 
+                    "type": "Range",
+                    "label": "Chapter 3"
+                },
+                {
+                    "id": "http://example.org/iiif/range/5",
+                    "type": "Range",
+                    "label": "Back cover",
+                    "viewingHint": "no-nav"
+                }
+            ]
+        },
+        {
+            "id": "http://example.org/iiif/range/1",
+            "type": "Range",
+            "label": "Front cover",
+            "members": [
+                {
+                    "id": "http://example.org/iiif/canvas/1", 
+                    "type": "Canvas"
+                },
+                {
+                    "id": "http://example.org/iiif/canvas/2", 
+                    "type": "Canvas"
+                }
+            ]
+        },
+        {
+            "id": "http://example.org/iiif/range/2",
+            "type": "Range",
+            "label": "Chapter 1",
+            "members": [
+                {
+                    "id": "http://example.org/iiif/canvas/3", 
+                    "type": "Canvas",
+                    "viewingHint": "no-nav"
+                },
+                {
+                    "id": "http://example.org/iiif/canvas/4#xywh=0,0,600,400", 
+                    "type": "Canvas",
+                    "viewingHint": "no-nav"
+                }
+            ]
+        },
+        {
+            "id": "http://example.org/iiif/range/3",
+            "type": "Range",
+            "label": "Chapter 2",
+            "members": [
+                {
+                    "id": "http://example.org/iiif/canvas/4#xywh=0,401,600,800", 
+                    "type": "Canvas",
+                    "viewingHint": "no-nav"
+                },
+                {
+                    "id": "http://example.org/iiif/canvas/5#xywh=0,0,600,200", 
+                    "type": "Canvas",
+                    "viewingHint": "no-nav"
+                },
+                {
+                    "id": "http://example.org/iiif/canvas/5#xywh=0,201,600,600", 
+                    "type": "Canvas",
+                    "label": "Picture of House"
+                },
+                {
+                    "id": "http://example.org/iiif/canvas/5#xywh=0,601,600,800", 
+                    "type": "Canvas",
+                    "viewingHint": "no-nav"
+                }
+            ]
+        },
+        {
+            "id": "http://example.org/iiif/range/4",
+            "type": "Range",
+            "label": "Chapter 3",
+            "members": [
+                {
+                    "id": "http://example.org/iiif/canvas/6", 
+                    "type": "Canvas"
+                }
+            ]
+        }
+    ]   
+}
