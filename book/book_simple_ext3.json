@@ -8,7 +8,7 @@
             "id": "http://example.org/iiif/range/0",
             "type": "Range",
             "viewingHint": "top",
-            "label": "A Short Book",
+            "label": "Table of Contents",
             "members": [
                 {
                     "id": "http://example.org/iiif/canvas/1", 
