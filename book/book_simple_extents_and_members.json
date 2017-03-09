@@ -1,6 +1,6 @@
 {
     "type": "Manifest",
-    "label": "A Short Book Opera -- extents and members",
+    "label": "A Short Book -- extents and members",
     "sequences": [ "/*...define http://example.org/iiif/canvas/1 in here...*/" ],
     "structures": [
         {

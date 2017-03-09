@@ -1,0 +1,55 @@
+{
+    "type": "Manifest",
+    "label": "A Very Short  Opera -- extents derived from hierarchy of parts",
+    "sequences": [ "/*...define http://example.org/iiif/canvas/1 in here...*/" ],
+    "structures": [
+        {
+            "id": "http://example.org/iiif/range/0",
+            "type": "Range",
+            "viewingHint": "top",
+            "label": "A Very Short Opera",
+            "members": [
+                {
+                    "id": "http://example.org/iiif/canvas/1#t=0,100", 
+                    "type": "Canvas",
+                    "label": "Overture",
+                    "viewingHint": "no-nav"
+                },
+                {
+                    "id": "http://example.org/iiif/range/1",
+                    "type": "Range",
+                    "label": "Act 1"
+                },
+                {
+                    "id": "http://example.org/iiif/canvas/1#t=2000,3000",
+                    "type": "Canvas",
+                    "label": "Act 2"
+                }
+            ]
+        },
+        {
+            "id": "http://example.org/iiif/range/1",
+            "type": "Range",
+            "label": "Act 1",
+            "members": [
+                {
+                    "id": "http://example.org/iiif/canvas/1#t=100,500", 
+                    "type": "Canvas",
+                    "label": "Act 1, part 1",
+                    "viewingHint": "no-nav"
+                },
+                {
+                    "id": "http://example.org/iiif/canvas/1#t=500,600", 
+                    "type": "Canvas",
+                    "label": "Famous Aria"
+                },
+                {
+                    "id": "http://example.org/iiif/canvas/1#t=600,1000", 
+                    "type": "Canvas",
+                    "label": "Act 1, part 2",
+                    "viewingHint": "no-nav"
+                }
+            ]
+        }
+    ]   
+}
