@@ -115,7 +115,7 @@
             ]
         },
         {
-            "id": "http://example.org/iiif/range/4",
+            "id": "http://example.org/iiif/range/5",
             "type": "Range",
             "label": "Back Cover",
             "viewingHint": "no-nav",
